@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic exercise builder</title>
+    <style>
+        .card {
+            display: flex;
+            gap: 10px;
+        }
+        .left{
+            position: relative;
+        }
+        #title {
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            /* color: rgb(241, 241, 241); */
+            font-weight: bolder;
+            line-height: 22px;
+        }
+        #duration{
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border-radius: 5px;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="left">
+                <img id="thumbnail" src="" alt="">
+                <div id="duration"></div>
+            </div>
+            <div class="right">
+                <div id="title"></div>
+                <div id="cname"></div>
+                <div id="views"></div>
+                <div id="months"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

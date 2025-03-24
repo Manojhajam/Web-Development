@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: flex;
+            gap: 10px;
+            margin: 5px;
+            padding: 5px;
+        }
+        .card:hover{
+            background: #aba7a7;
+        }
+        .image{
+            position: relative;
+        }
+        .duration{
+            position: absolute;
+            bottom: 10px;
+            right: 5px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border-radius: 5px;
+            padding: 2px;
+        }
+        .title{
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            /* color: rgb(241, 241, 241); */
+            font-weight: bolder;
+            line-height: 22px;
+        }
+        img{
+            border-radius: 6px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB6VzxANxt3dHm91HW9lLfDlxvmuA" alt="">
+                <div class="duration">31:22</div>
+            </div>
+            <div class="text">
+                <div class="title">Introduction to Backend</div>
+                <p>Code with harry  727k  6 months ago</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

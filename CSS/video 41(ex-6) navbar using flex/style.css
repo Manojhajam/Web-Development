@@ -1,0 +1,39 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}  */
+body{
+    background-color: antiquewhite;
+}
+header{
+    line-height: 1.6;
+    font-weight: 500;
+    width: 100%;
+    /* background-color: white; */
+}
+.container{
+    margin: auto;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    /* column-gap: 100px; */
+    justify-content: space-around;
+}
+/* .logo{
+
+} */
+.logo img{
+    width: ;
+    height: 40px;
+}
+.menu{
+    display: flex;
+}
+ul{
+    display: flex;
+gap: 34px;
+  }
+
+li{
+  list-style: none;
+}

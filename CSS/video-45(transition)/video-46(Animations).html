@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: antiquewhite;
+            width: 80vw;
+            height: 70vh;
+        }
+
+        .box {
+            /* background-color: aqua; */
+            width: 34vw;
+            height: 45vh;
+            /* animation-name: Harrykaanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-play-state: paused; */
+         animation: Harrykaanimation 3s ease-in 1s 4,         Harry2 3s ease-in 1s 4;
+        }
+
+        @keyframes Harrykaanimation {
+            from {
+                background-color: red;
+transform: 800px;
+            }
+
+            To {
+                background-color: blue;
+                transform: translatex(500px);
+            }
+        }
+        @keyframes Harry2 {
+            0%{transform: rotate(100deg);}
+            20%{transform: rotate(200deg);}
+            50%{transform: rotate(220deg);}
+            80%{transform: rotate(300deg);}
+100%{transform: rotate(310deg);}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

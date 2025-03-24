@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor website</title>
+    <style>
+       
+    </style>
+    <style>
+        :root{
+    --primary-color: purple;
+    --text-color: white;
+    --secondary-color: rgb(139, 139, 214);
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0px;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            
+          }
+          ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+          }
+    </style>
+</head>
+
+<body>
+    <!-- Create a multi color website which can change color using CSS variables. -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

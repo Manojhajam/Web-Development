@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/
+}
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    color: white;
+    background-image: url(images/bg.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.550);
+     /* filter: opacity(0.9); */
+     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubanto, sans-serif;
+}
+.main{
+    margin: 20px;
+}
+::placeholder{
+    color: white;
+}
+
+
+.form {
+   
+    width: fit-content;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 40px;
+    margin-top: 50px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 100%;
+}
+
+input {
+    background-color: rgba(128, 128, 128, 0.29);
+    margin: 5px 0px;
+    width: 100%;
+    padding: 5px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+
+.some {
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+button {
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 600;
+    color: aliceblue;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.n_last {
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.n_last a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.last {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.last  a{
+    text-decoration: none;
+    color: blue;
+}
